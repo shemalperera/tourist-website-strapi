@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_homepage_hero_slides",
+  "info": {
+    "displayName": "hero-slide"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "headline": {
+      "type": "string"
+    },
+    "subheadline": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

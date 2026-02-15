@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "hompages",
+  "info": {
+    "singularName": "hompage",
+    "pluralName": "hompages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroslide": {
+      "type": "component",
+      "component": "homepage.hero-slide",
+      "repeatable": true
+    },
+    "populardestinations": {
+      "type": "component",
+      "component": "homepage.popular-destination",
+      "repeatable": false
+    },
+    "populartours": {
+      "type": "component",
+      "component": "homepage.popular-tours",
+      "repeatable": false
+    }
+  }
+}
