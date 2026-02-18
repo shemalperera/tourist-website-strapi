@@ -8,6 +8,7 @@ export interface HomepageHeroSlide extends Struct.ComponentSchema {
   attributes: {
     headline: Schema.Attribute.String;
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imageURL: Schema.Attribute.String;
     subheadline: Schema.Attribute.Text;
   };
 }

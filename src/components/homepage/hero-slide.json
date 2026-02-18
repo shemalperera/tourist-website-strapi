@@ -20,6 +20,9 @@
     },
     "subheadline": {
       "type": "text"
+    },
+    "imageURL": {
+      "type": "string"
     }
   },
   "config": {}
